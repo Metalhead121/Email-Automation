@@ -10,7 +10,7 @@ from_addr = 'xyz@gmail.com' # add the senders Email Address Here.
 msg= MIMEMultipart()
 msg['From'] = from_addr
 msg['To']= ",".join(all_emails)
-msg['subject']= 'Test Mail'
+msg['subject']= 'Test Mail' # add subject of the common message
 
 body="This my test programme for Email Automation project" # add body of the common message 
 
